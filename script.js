@@ -1,7 +1,20 @@
-const userName = document.getElementsByClassName("email").value;
-var pass = document.getElementsByClassName("password").value;
 
 
-function login (userName) {
-    console.log(userName);
+function login() {
+
+    let userEmail = document.getElementById('email').value;
+let userPass = document.getElementById('pass').value;
+    if (userEmail === "satyam" & userPass === "harry") {
+        text = "Login Successful"  
+
+    } 
+    
+    else {
+        text = "Invalid details"
+    }
+    
+    // document.getElementById('textRes').innerHTML = text;
+    alert (text)
 }
+
+
